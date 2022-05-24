@@ -27,7 +27,7 @@
                 &kp TAB             &kp SQT      &kp COMMA   &kp DOT  &kp P          &kp Y       &kp F       &kp G           &kp C       &kp R       &kp L       &kp FSLH
                 &mt C(LSHFT) CAPS   &kp A        &kp O       &kp E    &kp U          &kp I       &kp D       &kp H           &kp T       &kp N       &kp S       &kp SQT
                 &mt LSHFT LPAR      &kp SEMI     &kp Q       &kp J    &kp K          &kp X       &kp B       &kp M           &kp W       &kp V       &kp Z       &mt RSHFT RPAR
-                &mo C(LS(TAB))      &kp GRAVE    &kp ESC     &kp LGUI &mt LALT LBKT  &kp RET     &kp SPACE   &mt RALT RBKT   &kp RGUI    &kp BSLH    &kp BSPC    &kp C(TAB) 
+                &kp C(LS(TAB))      &kp GRAVE    &kp ESC     &kp LGUI &mt LALT LBKT  &kp RET     &kp SPACE   &mt RALT RBKT   &kp RGUI    &kp BSLH    &kp BSPC    &kp C(TAB) 
             >;
         };
 
