@@ -16,18 +16,18 @@
 
         default_layer {
             // ------------------------------------------------------------------------------------------
-            // |  ESC  |  1   |  2   |  3   |  4   |  5   |   6   |  7    |  8   |  9   |   0   | BSPC  | <-- REMOVED
-            // |  TAB  |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   |  \    |
-            // | SHIFT |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |   ;   |  '    |
-            // | CTRL  |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   | ENTER |
-            // |ADJUST | LCTL | LALT | LGUI | LOWR | SPACE| SPACE |  RAIS | LARW | DARW | UARW  | RARW  |
+            // |  ESC  |  1   |  2   |  3   |  4   |   5   |   6   |  7    |  8   |  9   |   0   | BSPC  | <-- REMOVED
+            // |  TAB  |  Q   |  W   |  E   |  R   |   T   |   Y   |  U    |  I   |  O   |   P   |  \    |
+            // | SHIFT |  A   |  S   |  D   |  F   |   G   |   H   |  J    |  K   |  L   |   ;   |  '    |
+            // | CTRL  |  Z   |  X   |  C   |  V   |   B   |   N   |  M    |  ,   |  .   |   /   | ENTER |
+            // |ADJUST | LCTL | LALT | LGUI | LOWR | ENTER | SPACE |  RAIS | LARW | DARW | UARW  | RARW  |
 
 
             bindings = <
-                &kp TAB    &kp Q        &kp W       &kp E    &kp R      &kp T       &kp Y       &kp U   &kp I       &kp O       &kp P       &kp BSLH
-                &kp LSHFT  &kp A        &kp S       &kp D    &kp F      &kp G       &kp H       &kp J   &kp K       &kp L       &kp SEMI    &kp SQT
-                &kp LCTRL  &kp Z        &kp X       &kp C    &kp V      &kp B       &kp N       &kp M   &kp COMMA   &kp DOT     &kp FSLH    &kp RET
-                &mo 3      &kp LCTRL    &kp LALT    &kp LGUI &mo 1      &kp SPACE   &kp SPACE   &mo 2   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT 
+                &kp TAB             &kp SQT      &kp COMMA   &kp DOT  &kp P          &kp Y       &kp F       &kp G           &kp C       &kp R       &kp L       &kp FSLH
+                &mt C(LSHFT) CAPS   &kp A        &kp O       &kp E    &kp U          &kp I       &kp D       &kp H           &kp T       &kp N       &kp S       &kp SQT
+                &mt LSHFT LPAR      &kp SEMI     &kp Q       &kp J    &kp K          &kp X       &kp B       &kp M           &kp W       &kp V       &kp Z       &mt RSHFT RPAR
+                &mo C(LS(TAB))      &kp GRAVE    &kp ESC     &kp LGUI &mt LALT LBKT  &kp RET     &kp SPACE   &mt RALT RBKT   &kp RGUI    &kp BSLH    &kp BSPC    &kp C(TAB) 
             >;
         };
 
